@@ -1,0 +1,44 @@
+# Binary
+/graphrunner
+/graphrunner.exe
+/graphrunner-linux*
+/graphrunner-macos*
+/graphrunner-darwin*
+/build/
+
+# Output / loot
+/output/
+loot/
+sp-downloads/
+downloads/
+
+# Token store
+.graphrunner/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.test
+*.out
+coverage.html
+
+# Environment / secrets
+.env
+*.env
+credentials.json
+sessions.enc
+
+# Logs
+*.log
+
+# Sensitive data
+*.wordlist
